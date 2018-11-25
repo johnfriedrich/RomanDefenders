@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 359898b5f20a7e24c9d4940076d1e217
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polySurface10
+    100004: polySurface11
+    100006: polySurface12
+    100008: polySurface13
+    100010: polySurface14
+    100012: polySurface2
+    100014: polySurface3
+    100016: polySurface4
+    100018: polySurface5
+    100020: polySurface5 1
+    100022: polySurface6
+    100024: polySurface7
+    100026: polySurface8
+    100028: polySurface9
+    100030: transform1
+    100032: transform10
+    100034: transform11
+    100036: transform12
+    100038: transform2
+    100040: transform3
+    100042: transform4
+    100044: transform5
+    100046: transform6
+    100048: transform7
+    100050: transform8
+    100052: transform9
+    400000: //RootNode
+    400002: polySurface10
+    400004: polySurface11
+    400006: polySurface12
+    400008: polySurface13
+    400010: polySurface14
+    400012: polySurface2
+    400014: polySurface3
+    400016: polySurface4
+    400018: polySurface5
+    400020: polySurface5 1
+    400022: polySurface6
+    400024: polySurface7
+    400026: polySurface8
+    400028: polySurface9
+    400030: transform1
+    400032: transform10
+    400034: transform11
+    400036: transform12
+    400038: transform2
+    400040: transform3
+    400042: transform4
+    400044: transform5
+    400046: transform6
+    400048: transform7
+    400050: transform8
+    400052: transform9
+    2100000: Haupthaus
+    2300000: polySurface5
+    3300000: polySurface5
+    4300000: polySurface5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Haupthaus
+    second: {fileID: 2100000, guid: f0c64d395d61dee4e999940e48038d26, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

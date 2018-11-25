@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 21440164e4268004aba76c6f466b77d3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Palisadenwand_0014:joint10
+    100004: Palisadenwand_0014:joint11
+    100006: Palisadenwand_0014:joint12
+    100008: Palisadenwand_0014:joint13
+    100010: Palisadenwand_0014:joint14
+    100012: Palisadenwand_0014:joint15
+    100014: Palisadenwand_0014:joint16
+    100016: Palisadenwand_0014:joint17
+    100018: Palisadenwand_0014:joint18
+    100020: Palisadenwand_0014:joint19
+    100022: Palisadenwand_0014:joint2
+    100024: Palisadenwand_0014:joint20
+    100026: Palisadenwand_0014:joint21
+    100028: Palisadenwand_0014:joint22
+    100030: Palisadenwand_0014:joint23
+    100032: Palisadenwand_0014:joint24
+    100034: Palisadenwand_0014:joint25
+    100036: Palisadenwand_0014:joint26
+    100038: Palisadenwand_0014:joint27
+    100040: Palisadenwand_0014:joint27 1
+    100042: Palisadenwand_0014:joint28
+    100044: Palisadenwand_0014:joint29
+    100046: Palisadenwand_0014:joint3
+    100048: Palisadenwand_0014:joint30
+    100050: Palisadenwand_0014:joint31
+    100052: Palisadenwand_0014:joint32
+    100054: Palisadenwand_0014:joint39
+    100056: Palisadenwand_0014:joint4
+    100058: Palisadenwand_0014:joint5
+    100060: Palisadenwand_0014:joint6
+    100062: Palisadenwand_0014:joint7
+    100064: Palisadenwand_0014:joint8
+    100066: Palisadenwand_0014:joint9
+    100068: Palisadenwand_0014:Katapult2
+    100070: Palisadenwand_0014:Root
+    400000: //RootNode
+    400002: Palisadenwand_0014:joint10
+    400004: Palisadenwand_0014:joint11
+    400006: Palisadenwand_0014:joint12
+    400008: Palisadenwand_0014:joint13
+    400010: Palisadenwand_0014:joint14
+    400012: Palisadenwand_0014:joint15
+    400014: Palisadenwand_0014:joint16
+    400016: Palisadenwand_0014:joint17
+    400018: Palisadenwand_0014:joint18
+    400020: Palisadenwand_0014:joint19
+    400022: Palisadenwand_0014:joint2
+    400024: Palisadenwand_0014:joint20
+    400026: Palisadenwand_0014:joint21
+    400028: Palisadenwand_0014:joint22
+    400030: Palisadenwand_0014:joint23
+    400032: Palisadenwand_0014:joint24
+    400034: Palisadenwand_0014:joint25
+    400036: Palisadenwand_0014:joint26
+    400038: Palisadenwand_0014:joint27
+    400040: Palisadenwand_0014:joint27 1
+    400042: Palisadenwand_0014:joint28
+    400044: Palisadenwand_0014:joint29
+    400046: Palisadenwand_0014:joint3
+    400048: Palisadenwand_0014:joint30
+    400050: Palisadenwand_0014:joint31
+    400052: Palisadenwand_0014:joint32
+    400054: Palisadenwand_0014:joint39
+    400056: Palisadenwand_0014:joint4
+    400058: Palisadenwand_0014:joint5
+    400060: Palisadenwand_0014:joint6
+    400062: Palisadenwand_0014:joint7
+    400064: Palisadenwand_0014:joint8
+    400066: Palisadenwand_0014:joint9
+    400068: Palisadenwand_0014:Katapult2
+    400070: Palisadenwand_0014:Root
+    2100000: Palisadenwand_0014_Katapult3
+    4300000: Palisadenwand_0014:Katapult2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Palisadenwand_0014:Katapult2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

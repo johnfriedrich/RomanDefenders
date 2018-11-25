@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 62ba83f840ed66941a8be33c6909d118
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Roemer_Pferd_Reference_0001:arrow
+    100004: Roemer_Pferd_Reference_0001:bow
+    100006: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Head
+    100008: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Hips
+    100010: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftArm
+    100012: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftFoot
+    100014: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftForeArm
+    100016: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHand
+    100018: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex1
+    100020: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex2
+    100022: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex3
+    100024: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex4
+    100026: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle1
+    100028: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle2
+    100030: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle3
+    100032: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle4
+    100034: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky1
+    100036: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky2
+    100038: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky3
+    100040: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky4
+    100042: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing1
+    100044: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing2
+    100046: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing3
+    100048: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing4
+    100050: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb1
+    100052: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb2
+    100054: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb3
+    100056: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb4
+    100058: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftLeg
+    100060: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftShoulder
+    100062: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftToeBase
+    100064: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftUpLeg
+    100066: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Neck
+    100068: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Reference
+    100070: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightArm
+    100072: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightFoot
+    100074: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightForeArm
+    100076: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHand
+    100078: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex1
+    100080: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex2
+    100082: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex3
+    100084: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex4
+    100086: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle1
+    100088: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle2
+    100090: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle3
+    100092: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle4
+    100094: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky1
+    100096: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky2
+    100098: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky3
+    100100: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky4
+    100102: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing1
+    100104: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing2
+    100106: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing3
+    100108: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing4
+    100110: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb1
+    100112: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb2
+    100114: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb3
+    100116: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb4
+    100118: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightLeg
+    100120: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightShoulder
+    100122: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightToeBase
+    100124: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightUpLeg
+    100126: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Spine
+    100128: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Spine1
+    100130: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Spine2
+    100132: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Mesh
+    100134: Roemer_Pferd_Reference_0001:Roemer_Reference:Pfeil
+    100136: Roemer_Pferd_Reference_0001:Roemer_Reference:Roemer
+    400000: //RootNode
+    400002: Roemer_Pferd_Reference_0001:arrow
+    400004: Roemer_Pferd_Reference_0001:bow
+    400006: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Head
+    400008: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Hips
+    400010: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftArm
+    400012: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftFoot
+    400014: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftForeArm
+    400016: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHand
+    400018: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex1
+    400020: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex2
+    400022: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex3
+    400024: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandIndex4
+    400026: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle1
+    400028: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle2
+    400030: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle3
+    400032: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandMiddle4
+    400034: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky1
+    400036: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky2
+    400038: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky3
+    400040: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandPinky4
+    400042: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing1
+    400044: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing2
+    400046: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing3
+    400048: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandRing4
+    400050: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb1
+    400052: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb2
+    400054: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb3
+    400056: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftHandThumb4
+    400058: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftLeg
+    400060: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftShoulder
+    400062: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftToeBase
+    400064: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_LeftUpLeg
+    400066: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Neck
+    400068: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Reference
+    400070: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightArm
+    400072: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightFoot
+    400074: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightForeArm
+    400076: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHand
+    400078: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex1
+    400080: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex2
+    400082: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex3
+    400084: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandIndex4
+    400086: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle1
+    400088: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle2
+    400090: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle3
+    400092: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandMiddle4
+    400094: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky1
+    400096: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky2
+    400098: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky3
+    400100: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandPinky4
+    400102: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing1
+    400104: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing2
+    400106: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing3
+    400108: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandRing4
+    400110: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb1
+    400112: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb2
+    400114: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb3
+    400116: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightHandThumb4
+    400118: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightLeg
+    400120: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightShoulder
+    400122: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightToeBase
+    400124: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_RightUpLeg
+    400126: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Spine
+    400128: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Spine1
+    400130: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Buschel:Character1_Spine2
+    400132: Roemer_Pferd_Reference_0001:Roemer_Reference:Buschel:Mesh
+    400134: Roemer_Pferd_Reference_0001:Roemer_Reference:Pfeil
+    400136: Roemer_Pferd_Reference_0001:Roemer_Reference:Roemer
+    2100000: Roemer_Pferd_Reference_0001_Roemer_Reference_Assets
+    2100002: Roemer_Pferd_Reference_0001_Roemer_Reference_Roemer_neu
+    2100004: Teamcolor
+    4300000: Roemer_Pferd_Reference_0001:Roemer_Reference:Pfeil
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Roemer_Pferd_Reference_0001:Roemer_Reference:Pfeil
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roemer_Pferd_Reference_0001_Roemer_Reference_Assets
+    second: {fileID: 2100000, guid: f59a8b23c375af944bd310b529e50bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roemer_Pferd_Reference_0001_Roemer_Reference_Roemer_neu
+    second: {fileID: 2100000, guid: b9edf412365f3da4293f3f5f5f55fdb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teamcolor
+    second: {fileID: 2100000, guid: e0ba3f5c247443a4c9e682c75e90078d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

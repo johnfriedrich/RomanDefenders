@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: c0b1b1e2aab15d8449b881945665b676
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_h_l
+    100004: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_h_r
+    100006: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_v_l
+    100008: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_v_r
+    100010: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Head
+    100012: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Hips
+    100014: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftArm
+    100016: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftFoot
+    100018: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftForeArm
+    100020: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftHand
+    100022: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftHandIndex1
+    100024: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftLeg
+    100026: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftShoulder
+    100028: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftToeBase
+    100030: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftUpLeg
+    100032: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Neck
+    100034: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightArm
+    100036: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightFoot
+    100038: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightForeArm
+    100040: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightHand
+    100042: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightHandIndex1
+    100044: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightLeg
+    100046: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightShoulder
+    100048: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightToeBase
+    100050: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightUpLeg
+    100052: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Spine
+    100054: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Spine1
+    100056: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Spine2
+    100058: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Ctrl_Group
+    100060: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Hals
+    100062: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Hintern
+    100064: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_h_l
+    100066: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_h_r
+    100068: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_v_l
+    100070: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_v_r
+    100072: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint1
+    100074: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint2
+    100076: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint3
+    100078: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint4
+    100080: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Kopf
+    100082: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Pferd
+    100084: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Pferd1
+    100086: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Schweif1
+    100088: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Schweif2
+    100090: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Schweif3
+    400000: //RootNode
+    400002: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_h_l
+    400004: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_h_r
+    400006: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_v_l
+    400008: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Bein_v_r
+    400010: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Head
+    400012: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Hips
+    400014: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftArm
+    400016: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftFoot
+    400018: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftForeArm
+    400020: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftHand
+    400022: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftHandIndex1
+    400024: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftLeg
+    400026: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftShoulder
+    400028: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftToeBase
+    400030: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_LeftUpLeg
+    400032: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Neck
+    400034: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightArm
+    400036: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightFoot
+    400038: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightForeArm
+    400040: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightHand
+    400042: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightHandIndex1
+    400044: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightLeg
+    400046: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightShoulder
+    400048: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightToeBase
+    400050: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_RightUpLeg
+    400052: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Spine
+    400054: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Spine1
+    400056: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Character2_Spine2
+    400058: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Ctrl_Group
+    400060: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Hals
+    400062: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Hintern
+    400064: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_h_l
+    400066: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_h_r
+    400068: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_v_l
+    400070: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Huf_v_r
+    400072: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint1
+    400074: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint2
+    400076: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint3
+    400078: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:joint4
+    400080: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Kopf
+    400082: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Pferd
+    400084: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Pferd1
+    400086: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Schweif1
+    400088: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Schweif2
+    400090: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Schweif3
+    2100000: Roemer_Pferd_Reference_0001_Helm_0027_Skin_0023_Pferd6
+    4300000: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Pferd
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Roemer_Pferd_Reference_0001:Helm_0027_Skin_0023:Pferd
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roemer_Pferd_Reference_0001_Helm_0027_Skin_0023_Pferd6
+    second: {fileID: 2100000, guid: b2f2ed03a5534ae499607bee579a7afc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

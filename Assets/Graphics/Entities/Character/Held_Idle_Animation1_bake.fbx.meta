@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: aed814ef6b3ad3d40ba4c98f56b9d6fa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Held_Reference_0025_arm_L
+    100004: Held_Reference_0025_arm_R
+    100006: Held_Reference_0025_clavicula_L
+    100008: Held_Reference_0025_clavicula_R
+    100010: Held_Reference_0025_foot_L
+    100012: Held_Reference_0025_foot_R
+    100014: Held_Reference_0025_foot_tip_L
+    100016: Held_Reference_0025_foot_tip_R
+    100018: Held_Reference_0025_forefinger_L
+    100020: Held_Reference_0025_forefinger_mid1_L
+    100022: Held_Reference_0025_forefinger_mid1_R
+    100024: Held_Reference_0025_forefinger_mid2_L
+    100026: Held_Reference_0025_forefinger_mid2_R
+    100028: Held_Reference_0025_forefinger_R
+    100030: Held_Reference_0025_forefinger_tip_L
+    100032: Held_Reference_0025_forefinger_tip_R
+    100034: Held_Reference_0025_hand_L
+    100036: Held_Reference_0025_hand_R
+    100038: Held_Reference_0025_head
+    100040: Held_Reference_0025_hips_L
+    100042: Held_Reference_0025_hips_R
+    100044: Held_Reference_0025_leg_L
+    100046: Held_Reference_0025_leg_R
+    100048: Held_Reference_0025_middlefinger_L
+    100050: Held_Reference_0025_middlefinger_mid1_L
+    100052: Held_Reference_0025_middlefinger_mid1_R
+    100054: Held_Reference_0025_middlefinger_mid2_tip
+    100056: Held_Reference_0025_middlefinger_mid2_tip 1
+    100058: Held_Reference_0025_middlefinger_R
+    100060: Held_Reference_0025_middlefinger_tip_L
+    100062: Held_Reference_0025_middlefinger_tip_R
+    100064: Held_Reference_0025_pinkie_L
+    100066: Held_Reference_0025_pinkie_mid1_L
+    100068: Held_Reference_0025_pinkie_mid1_R
+    100070: Held_Reference_0025_pinkie_mid2_L
+    100072: Held_Reference_0025_pinkie_mid2_R
+    100074: Held_Reference_0025_pinkie_R
+    100076: Held_Reference_0025_pinkie_tip_L
+    100078: Held_Reference_0025_pinkie_tip_R
+    100080: Held_Reference_0025_rdPersonCharakter3
+    100082: Held_Reference_0025_ringfinger_L
+    100084: Held_Reference_0025_ringfinger_mid1_L
+    100086: Held_Reference_0025_ringfinger_mid1_R
+    100088: Held_Reference_0025_ringfinger_mid2_L
+    100090: Held_Reference_0025_ringfinger_mid2_R
+    100092: Held_Reference_0025_ringfinger_R
+    100094: Held_Reference_0025_ringfinger_tip_L
+    100096: Held_Reference_0025_ringfinger_tip_R
+    100098: Held_Reference_0025_Root
+    100100: Held_Reference_0025_shoulder_L
+    100102: Held_Reference_0025_shoulder_R
+    100104: Held_Reference_0025_spine1
+    100106: Held_Reference_0025_spine2
+    100108: Held_Reference_0025_spine3
+    100110: Held_Reference_0025_spine4
+    100112: Held_Reference_0025_thumb_L
+    100114: Held_Reference_0025_thumb_mid_L
+    100116: Held_Reference_0025_thumb_mid_R
+    100118: Held_Reference_0025_thumb_R
+    100120: Held_Reference_0025_thumb_tip_L
+    100122: Held_Reference_0025_thumb_tip_R
+    100124: Held_Reference_0025_transform2
+    100126: Held_Reference_0025_transform3
+    400000: //RootNode
+    400002: Held_Reference_0025_arm_L
+    400004: Held_Reference_0025_arm_R
+    400006: Held_Reference_0025_clavicula_L
+    400008: Held_Reference_0025_clavicula_R
+    400010: Held_Reference_0025_foot_L
+    400012: Held_Reference_0025_foot_R
+    400014: Held_Reference_0025_foot_tip_L
+    400016: Held_Reference_0025_foot_tip_R
+    400018: Held_Reference_0025_forefinger_L
+    400020: Held_Reference_0025_forefinger_mid1_L
+    400022: Held_Reference_0025_forefinger_mid1_R
+    400024: Held_Reference_0025_forefinger_mid2_L
+    400026: Held_Reference_0025_forefinger_mid2_R
+    400028: Held_Reference_0025_forefinger_R
+    400030: Held_Reference_0025_forefinger_tip_L
+    400032: Held_Reference_0025_forefinger_tip_R
+    400034: Held_Reference_0025_hand_L
+    400036: Held_Reference_0025_hand_R
+    400038: Held_Reference_0025_head
+    400040: Held_Reference_0025_hips_L
+    400042: Held_Reference_0025_hips_R
+    400044: Held_Reference_0025_leg_L
+    400046: Held_Reference_0025_leg_R
+    400048: Held_Reference_0025_middlefinger_L
+    400050: Held_Reference_0025_middlefinger_mid1_L
+    400052: Held_Reference_0025_middlefinger_mid1_R
+    400054: Held_Reference_0025_middlefinger_mid2_tip
+    400056: Held_Reference_0025_middlefinger_mid2_tip 1
+    400058: Held_Reference_0025_middlefinger_R
+    400060: Held_Reference_0025_middlefinger_tip_L
+    400062: Held_Reference_0025_middlefinger_tip_R
+    400064: Held_Reference_0025_pinkie_L
+    400066: Held_Reference_0025_pinkie_mid1_L
+    400068: Held_Reference_0025_pinkie_mid1_R
+    400070: Held_Reference_0025_pinkie_mid2_L
+    400072: Held_Reference_0025_pinkie_mid2_R
+    400074: Held_Reference_0025_pinkie_R
+    400076: Held_Reference_0025_pinkie_tip_L
+    400078: Held_Reference_0025_pinkie_tip_R
+    400080: Held_Reference_0025_rdPersonCharakter3
+    400082: Held_Reference_0025_ringfinger_L
+    400084: Held_Reference_0025_ringfinger_mid1_L
+    400086: Held_Reference_0025_ringfinger_mid1_R
+    400088: Held_Reference_0025_ringfinger_mid2_L
+    400090: Held_Reference_0025_ringfinger_mid2_R
+    400092: Held_Reference_0025_ringfinger_R
+    400094: Held_Reference_0025_ringfinger_tip_L
+    400096: Held_Reference_0025_ringfinger_tip_R
+    400098: Held_Reference_0025_Root
+    400100: Held_Reference_0025_shoulder_L
+    400102: Held_Reference_0025_shoulder_R
+    400104: Held_Reference_0025_spine1
+    400106: Held_Reference_0025_spine2
+    400108: Held_Reference_0025_spine3
+    400110: Held_Reference_0025_spine4
+    400112: Held_Reference_0025_thumb_L
+    400114: Held_Reference_0025_thumb_mid_L
+    400116: Held_Reference_0025_thumb_mid_R
+    400118: Held_Reference_0025_thumb_R
+    400120: Held_Reference_0025_thumb_tip_L
+    400122: Held_Reference_0025_thumb_tip_R
+    400124: Held_Reference_0025_transform2
+    400126: Held_Reference_0025_transform3
+    2100000: Held_Reference_0025_Held
+    2100002: Held_Reference_0025_Held_eyes
+    2100004: Held_Reference_0025_Held_skin
+    2100006: Held_Reference_0025_Held_hair
+    2100008: Held_Reference_0025_Held_fabric
+    4300000: Held_Reference_0025_rdPersonCharakter3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Held_Reference_0025_rdPersonCharakter3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Held_Reference_0025_Held
+    second: {fileID: 2100000, guid: 1c7ffe3850d59204a886654a32c6a877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Held_Reference_0025_Held_eyes
+    second: {fileID: 2100000, guid: 30c4daf4c7eb9534cb88f8098169ac2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Held_Reference_0025_Held_fabric
+    second: {fileID: 2100000, guid: 540f0ef36fd77bd4ab40b3cf3de19469, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Held_Reference_0025_Held_hair
+    second: {fileID: 2100000, guid: bbd7ae4c959b3db4db21d80991619728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Held_Reference_0025_Held_skin
+    second: {fileID: 2100000, guid: 18a2e4287a5b8bf48b613788c8822db7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
