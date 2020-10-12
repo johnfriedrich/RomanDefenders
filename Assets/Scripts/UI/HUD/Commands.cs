@@ -17,6 +17,8 @@ public class Commands : Menu {
     [SerializeField]
     private Button trainHorseman;
     [SerializeField]
+    private Button trainSettler;
+    [SerializeField]
     private Button researchArmor;
     [SerializeField]
     private ButtonCooldown researchArmorCooldown;
@@ -41,7 +43,12 @@ public class Commands : Menu {
     private Image upgradeCooldownImage;
     [SerializeField]
     private CommandTooltip commandTooltip;
+    private static Commands instance;
     private List<ParentObject> selectedObjects;
+
+    public static Commands Instance { get => instance; }
+
+    public List<ParentObject> SelectedObjects { get => selectedObjects; }
 
     public void EndHover() {
         commandTooltip.Hide();
@@ -102,6 +109,19 @@ public class Commands : Menu {
         ParentBuilding building = (ParentBuilding)selectedObjects[0];
         Barracks barracks = (Barracks)building.Behaviour;
         if (barracks.Train(unit)) {
+            PlayButtonClick();
+        }
+    }
+
+    public void HoverTrainSettler(TrainUnit unit) {
+        Entity entity = (Entity)PrefabHolder.Instance.GetInfo(unit.entityType);
+        commandTooltip.SetTooltip(new TooltipData("Trains a " + entity.FriendlyName, "This trains a " + entity.FriendlyName + " in Mainhouse.", Manager.Instance.ManaSprite, entity.BuildCost, 0));
+    }
+
+    public void TrainSettler(TrainUnit unit) {
+        ParentBuilding building = (ParentBuilding)selectedObjects[0];
+        Mainhouse mainhouse = (Mainhouse)building.Behaviour;
+        if (mainhouse.Train(unit)) {
             PlayButtonClick();
         }
     }
@@ -195,6 +215,10 @@ public class Commands : Menu {
         }
     }
 
+    private void Awake() {
+        instance = this;
+    }
+
     private void Start() {
         selectedObjects = new List<ParentObject>();
         EventManager.Instance.OnParentObjectSelectedEvent += SetSelectedObjects;
@@ -210,6 +234,7 @@ public class Commands : Menu {
 
     private void ShowAsMainhouse() {
         reviveHero.gameObject.SetActive(true);
+        trainSettler.gameObject.SetActive(true);
         destroy.gameObject.SetActive(false);
     }
 
@@ -241,6 +266,7 @@ public class Commands : Menu {
         researchDamage.gameObject.SetActive(false);
         addEntity.gameObject.SetActive(false);
         dropEntity.gameObject.SetActive(false);
+        trainSettler.gameObject.SetActive(false);
     }
 
     private void ShowAsEntity() {

@@ -192,9 +192,6 @@ public class ParentObject : MonoBehaviour, IDamageable, IRepairable, IPointerDow
     }
 
     protected virtual void Reset() {
-        //foreach (Renderer rend in gameObject.GetComponentsInChildren<Renderer>()) {
-        //    rend.enabled = true;
-        //}
         currentHealthPoints = maxHealthpoints;
         entityState = EntityStateEnum.Alive;
         currentLevel = 1;

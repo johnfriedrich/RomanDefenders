@@ -47,6 +47,8 @@ public class Entity : ParentObject, ISaveLoad {
     private GameObject currentEnemy;
     private ParentObject currentEnemyEntity;
 
+    public EntityBehaviour EntityBehaviourClass { get => entityBehaviourClass; }
+
     public string EntityName { get { return objectName.ToString(); } }
 
     public int FoodValue {

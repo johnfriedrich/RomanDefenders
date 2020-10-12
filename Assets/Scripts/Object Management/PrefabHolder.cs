@@ -51,6 +51,8 @@ public class PrefabHolder : MonoBehaviour {
     private GameObject healImpactPrefab;
     [SerializeField]
     private GameObject selectionCirclePrefab;
+    [SerializeField]
+    private GameObject settlerPrefab;
 
     //Internal copies
     private GameObject swordsmanPrefabInternal;
@@ -75,6 +77,7 @@ public class PrefabHolder : MonoBehaviour {
     private GameObject iceballImpactPrefabInternal;
     private GameObject healImpactPrefabInternal;
     private GameObject selectionCirclePrefabInternal;
+    private GameObject settlerPrefabInternal;
 
     public ParentObject GetInfo(ParentObjectNameEnum objectNameEnum) {
         return Get(objectNameEnum).GetComponent<ParentObject>();
@@ -126,6 +129,8 @@ public class PrefabHolder : MonoBehaviour {
                 return healImpactPrefabInternal;
             case ParentObjectNameEnum.SelectionCircle:
                 return selectionCirclePrefabInternal;
+            case ParentObjectNameEnum.Settler:
+                return settlerPrefabInternal;
             default:
                 return null;
         }
@@ -159,6 +164,7 @@ public class PrefabHolder : MonoBehaviour {
         healImpactPrefabInternal = Instantiate(healImpactPrefab, transform);
         characterPrefabInternal = Instantiate(characterPrefab, transform);
         selectionCirclePrefabInternal = Instantiate(selectionCirclePrefab, transform);
+        settlerPrefabInternal = Instantiate(settlerPrefab, transform);
     }
 
 }

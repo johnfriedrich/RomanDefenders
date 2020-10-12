@@ -22,6 +22,7 @@ public enum ParentObjectNameEnum {
     FireballImpact,
     IceballImpact,
     DeathObject,
-    SelectionCircle
+    SelectionCircle,
+    Settler
 
 }

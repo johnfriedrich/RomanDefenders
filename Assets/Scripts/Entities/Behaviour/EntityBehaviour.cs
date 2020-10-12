@@ -12,6 +12,8 @@ public class EntityBehaviour : MonoBehaviour {
 
     public virtual void Attack(float damage, ParentObject enemy) {}
 
+    public Entity GetEntity() { return parent; }
+
     public virtual void CancelCast() {
         baseAnim.gameObject.SetActive(false);
         baseAnim.gameObject.SetActive(true);

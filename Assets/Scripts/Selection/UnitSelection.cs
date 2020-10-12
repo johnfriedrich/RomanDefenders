@@ -27,10 +27,6 @@ public class UnitSelection : MonoBehaviour {
         if (Input.GetMouseButtonDown(0) && EventSystem.current.currentSelectedGameObject == null) {
             isSelecting = true;
             mousePosition1 = Input.mousePosition;
-            foreach (Entity entity in FindObjectsOfType<Entity>()) {
-                //entity.HideCircle();
-                //entity.InfoBar.Hide();
-            }
         }
 
         if (isSelecting) {
@@ -68,6 +64,7 @@ public class UnitSelection : MonoBehaviour {
                     item.InfoBar.UpdateBar();
                 }
             }
+            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             isSelecting = false;
         }
 

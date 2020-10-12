@@ -10,7 +10,7 @@ public class EventManager {
     public delegate void DelBool(bool value);
     public delegate void DelEntity(Entity entity);
     public delegate void DelForge(Forge forge);
-    public delegate void DelEntityBarracks(Entity entity, Barracks barracks);
+    public delegate void DelEntityBuildingBehaviour(Entity entity, BuildingBehaviour buildingBehaviour);
     public delegate void DelStringList(List<string> stringList);
     public delegate void DelParentBuilding(ParentBuilding building);
     public delegate void DelParentBuildingEnemy(ParentBuilding building, bool byEnemy);
@@ -26,7 +26,7 @@ public class EventManager {
     public event DelEntity OnEntitySpawnEvent;
     public event DelEntity OnEntityLevelUpEvent;
     public event DelEntity OnEntityTrainEvent;
-    public event DelEntityBarracks OnEntityTrainFinishedEvent;
+    public event DelEntityBuildingBehaviour OnEntityTrainFinishedEvent;
     public event DelForge OnResearchStartedEvent;
     public event DelSimple OnRefreshUIEvent;
     public event DelParentBuilding OnBuildingBuiltEvent;
@@ -168,12 +168,12 @@ public class EventManager {
         OnEntityTrainEvent(entityInTraining);
     }
 
-    private void EntityTrainFinishedEvent(Entity entityInTraining, Barracks barracks) {
-        OnEntityTrainFinishedEvent?.Invoke(entityInTraining, barracks);
+    private void EntityTrainFinishedEvent(Entity entityInTraining, BuildingBehaviour buildingBehaviour) {
+        OnEntityTrainFinishedEvent?.Invoke(entityInTraining, buildingBehaviour);
     }
 
-    public void EntityTrainFinished(Entity entityInTraining, Barracks barracks) {
-        OnEntityTrainFinishedEvent(entityInTraining, barracks);
+    public void EntityTrainFinished(Entity entityInTraining, BuildingBehaviour buildingBehaviour) {
+        OnEntityTrainFinishedEvent(entityInTraining, buildingBehaviour);
     }
 
     private void RefreshUIEvent() {

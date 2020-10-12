@@ -10,8 +10,8 @@ public class TerrainLeveler : MonoBehaviour {
 
     private void OnEnable () {
         myTerrain = Terrain.activeTerrain;
-        xResolution = myTerrain.terrainData.heightmapWidth;
-        zResolution = myTerrain.terrainData.heightmapHeight;
+        xResolution = myTerrain.terrainData.heightmapResolution;
+        zResolution = myTerrain.terrainData.heightmapResolution;
         LevelTerrain();
     }
 	

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7ca1fd6-3518-44b1-a7ae-16d3dee066b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/Kingthings Foundation SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Font/Kingthings Foundation SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Particles/Skill Target.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Particles/Skill Target.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Particles/Skills/Fireball/Fireball_Impact.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Particles/Skills/Fireball/Fireball_Impact.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Particles/Skills/Heal/Heal_Impact.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Particles/Skills/Heal/Heal_Impact.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Particles/Skills/Iceball/Iceball_Impact.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Particles/Skills/Iceball/Iceball_Impact.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Post Processing/Main.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Post Processing/Main.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Splash Screen/Logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Splash Screen/Logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Splash Screen/icon_raw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Splash Screen/icon_raw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Health CD Image.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Health CD Image.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Add.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Add.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNBarracks.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNBarracks.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNFarm.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNFarm.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNForge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNForge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNMine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNMine.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNPalisade.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNPalisade.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNTower.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNTower.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNWall.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/BTNWall.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Bomb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Bomb.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Bow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Bow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Catapult.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Catapult.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Damage Upgrade.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Damage Upgrade.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Damage.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Damage.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Defense Upgrade.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Defense Upgrade.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Defense.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Defense.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Drop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Drop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Fireball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Fireball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/HUD Mana.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/HUD Mana.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Heal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Heal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Horseman.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Horseman.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Iceball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Iceball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Passive.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Passive.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Revive Hero.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Revive Hero.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Slider Knob.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Slider Knob.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Sword.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Sword.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Upgrade.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/HUD/Icons/Upgrade.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Main Menu/Main Menu HD.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/Main Menu/Main Menu HD.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Main Menu/Roman Title Video.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/UI/Main Menu/Roman Title Video.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Map.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Map.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/Checkmark.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/Checkmark.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/DefaultFileIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/DefaultFileIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/DriveIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/DriveIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/DropdownArrow.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/DropdownArrow.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/FolderIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/FolderIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/ForwardArrow.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/ForwardArrow.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/ImageFileIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/ImageFileIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserDrag.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserDrag.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground1.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground1.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground2.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground2.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground3.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground3.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground4.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground4.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground5.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserSlicedBackground5.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/TextFileIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Sprites/TextFileIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bases/Show Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bases/Show Base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Buildings/Mainhouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Buildings/Mainhouse.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/Behaviour/Barracks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/Behaviour/Barracks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/Behaviour/Mainhouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/Behaviour/Mainhouse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/ParentBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/ParentBuilding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/TerrainLeveler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/TerrainLeveler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/Behaviour/EntityBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/Behaviour/EntityBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/SkillTargeter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/SkillTargeter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/WaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/WaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Object Management/PrefabHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Object Management/PrefabHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parent/ParentObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parent/ParentObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parent/ParentObjectNameEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parent/ParentObjectNameEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RenderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RenderView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Selection/UnitSelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Selection/UnitSelection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TerrainReset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TerrainReset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD/SkillButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD/SkillButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD/TopBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD/TopBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/Main Menu/Main Menu HD.mp4.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Sound/AmbientSound.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Bomb.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Manager/Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Buildings/Behaviour/Mainhouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Heal.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Defense Upgrade.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Bow.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Entities/Entity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/SimpleFileBrowser/Sprites/SimpleFileBrowserDrag.psd.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Sound/AmbientSound.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Buildings/ParentBuilding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Revive Hero.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Object Management/PrefabHolder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Defense.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scenes/Game/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Fireball.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/BTNMine.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Parent/ParentObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Entities/Behaviour/EntityBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Parent/ParentObjectNameEnum.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Manager/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Passive.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Damage.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/Main Menu/Roman Title Video.mp4.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/SimpleFileBrowser/Sprites/DriveIcon.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Entities/SkillTargeter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Manager/WaveManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Parent/ParentObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Bow.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Damage Upgrade.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/UI/HUD/SkillButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/credits.txt.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Drop.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/SimpleFileBrowser/Sprites/DriveIcon.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Entities/Behaviour/EntityBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Manager/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/RenderView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Damage.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Bomb.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Buildings/Behaviour/Barracks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/UI/HUD/Commands.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/SimpleFileBrowser/Sprites/FolderIcon.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scenes/Game/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Buildings/Behaviour/Barracks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Add.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Defense.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/Post Processing/Main.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/UI/HUD/Icons/Add.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Graphics/Particles/Skills/Fireball/Fireball_Impact.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/UI/HUD/Commands.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Plugins/SimpleFileBrowser/Sprites/DefaultFileIcon.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/projekte/Unity/Roman Defenders - Kopie/Assets/Scripts/Entities/Entity.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/AmbientSound.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i75uRoQ2arDunCMtVWDg5XQRIZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7ca1fd6-3518-44b1-a7ae-16d3dee066b5" name="Default Changelist" comment="" />
+      <created>1601246014266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601246014266</updated>
+      <workItem from="1601246019604" duration="35000" />
+      <workItem from="1602528832690" duration="1536000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

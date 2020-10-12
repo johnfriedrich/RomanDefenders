@@ -15,6 +15,8 @@ public class Manager : MonoBehaviour {
     public int MaxWaveNumber = 0;
 
     [SerializeField]
+    private Texture2D cursorTexture;
+    [SerializeField]
     private int mana = 0;
     private int defaultMana;
     [SerializeField]
@@ -57,6 +59,8 @@ public class Manager : MonoBehaviour {
     private GameObject skillTargeter;
     [SerializeField]
     private Color enemyColor;
+    [SerializeField]
+    private GameObject menuCamera;
 
     public int CurrentFood {
         get {
@@ -110,8 +114,6 @@ public class Manager : MonoBehaviour {
         }
     }
 
-    public int CurrentWaveNumber { get; internal set; } = 0;
-
     public bool IsPaused { get; internal set; }
 
     public GameObject EnemyTarget {
@@ -164,6 +166,8 @@ public class Manager : MonoBehaviour {
         }
     }
 
+    public Texture2D CursorTexture { get => cursorTexture;  }
+
     public void AddFood(int foodToAdd) {
         currentFood += foodToAdd;
     }
@@ -200,7 +204,6 @@ public class Manager : MonoBehaviour {
 
     private void WinGame() {
         SetGameStopped();
-        Debug.Log("Won Game!");
         Sound.Instance.PlaySoundClip(SoundEnum.UI_Pling);
         gameWin.Show();
     }
@@ -246,7 +249,6 @@ public class Manager : MonoBehaviour {
     private void ResetOptions() {
         EventManager.Instance.Deselect();
         FogOfWar.instances[0].SetAll(255);
-        CurrentWaveNumber = 0;
         mana = defaultMana;
         CurrentEntityCount = 0;
         currentFood = 200;
@@ -254,16 +256,17 @@ public class Manager : MonoBehaviour {
     }
 
     private void EnableGameWorld() {
+        menuCamera.SetActive(false);
         game.SetActive(true);
     }
+
+    private void EntitySpawnActions(Entity spawnedEntity) { }
 
     private void EntityDeathActions(Entity deadEntity) {
         if (deadEntity.IsPlayer()) {
             RemoveEntity(deadEntity.FoodValue);
         }
     }
-
-    private void EntitySpawnActions(Entity spawnedEntity) { }
 
     private void BuildingStartedActions(ParentBuilding parentBuilding) {
         RemoveMana(parentBuilding.BuildCost);

@@ -42,8 +42,8 @@ public class TopBar : MonoBehaviour {
     }
 
     private void AdjustWaveCount() {
-        if (Manager.Instance.CurrentWaveNumber <= Manager.Instance.MaxWaveNumber) {
-            waveCount.text = Manager.Instance.CurrentWaveNumber.ToString() + Path.AltDirectorySeparatorChar + Manager.Instance.MaxWaveNumber;
+        if (WaveManager.Instance.CurrentWaveNumber <= Manager.Instance.MaxWaveNumber) {
+            waveCount.text = WaveManager.Instance.CurrentWaveNumber.ToString() + Path.AltDirectorySeparatorChar + Manager.Instance.MaxWaveNumber;
         }
     }
 

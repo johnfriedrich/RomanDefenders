@@ -14,21 +14,16 @@ public class SkillTargeter : MonoBehaviour {
     private Transform hero;
     private float timer = 0;
 
-    public SkillBehaviour CurrentSkill {
-        set {
-            currentSkill = value;
-        }
-    }
-
-    public SkillButton CurrentSkillButton {
-        set {
-            currentSkillButton = value;
-        }
+    public void SetSkill(SkillBehaviour skillBehaviour, SkillButton skillButton) {
+        currentSkillButton = skillButton;
+        currentSkill = skillBehaviour;
+        gameObject.SetActive(true);
+        enabled = true;
     }
 
     private void OnDisable() {
         currentSkillButton = null;
-        CurrentSkill = null;
+        currentSkill = null;
         isFired = false;
         canBeCasted = false;
     }
@@ -36,6 +31,10 @@ public class SkillTargeter : MonoBehaviour {
     private void Start() {
         hero = PoolHolder.Instance.GetObjectActive(ParentObjectNameEnum.Character).transform;
         terrainCollider = Terrain.activeTerrain.GetComponent<TerrainCollider>();
+    }
+
+    private void OnEnable() {
+        Scale();
     }
 
     private void Update() {
@@ -61,7 +60,7 @@ public class SkillTargeter : MonoBehaviour {
             rend.material.color = Color.green;
         } else {
             canBeCasted = false;
-            transform.localScale = new Vector3(currentSkill.Radius/2, currentSkill.Radius/2, 1);
+            Scale();
             rend.material.color = new Color(0.7f, 0.3f, 0.1f);
         }
         if (timer < 0.5f) {
@@ -75,6 +74,10 @@ public class SkillTargeter : MonoBehaviour {
                 EventLog.Instance.AddAction(LogType.Error, Distance, transform.position);
             }
         }
+    }
+
+    private void Scale() {
+        transform.localScale = new Vector3(currentSkill.Radius / 2, currentSkill.Radius / 2, 1);
     }
 
     private bool CheckDistance() {

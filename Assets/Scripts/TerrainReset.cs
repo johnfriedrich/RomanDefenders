@@ -7,7 +7,7 @@ public class TerrainReset : MonoBehaviour {
     private float[,] originalHeights;
 
     private void Awake() {
-        originalHeights = terrain.terrainData.GetHeights(0, 0, terrain.terrainData.heightmapWidth, terrain.terrainData.heightmapHeight);
+        originalHeights = terrain.terrainData.GetHeights(0, 0, terrain.terrainData.heightmapResolution, terrain.terrainData.heightmapResolution);
         EventManager.Instance.OnGameResetPostEvent += ResetObject;
     }
 

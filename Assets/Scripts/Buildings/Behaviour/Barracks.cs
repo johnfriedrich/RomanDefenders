@@ -95,7 +95,7 @@ public class Barracks : BuildingBehaviour {
         alreadytraining = false;
     }
 
-    private void TryTrainUnit(Entity trainedEntity, Barracks trainedIn) {
+    private void TryTrainUnit(Entity trainedEntity, BuildingBehaviour trainedIn) {
         if (trainedIn == this) {
             TryTrainUnit();
         }

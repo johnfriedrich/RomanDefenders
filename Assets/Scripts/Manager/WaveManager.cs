@@ -5,6 +5,8 @@ public class WaveManager : MonoBehaviour {
 
     public static WaveManager Instance { get; private set; }
 
+    public int CurrentWaveNumber { get; internal set; } = 0;
+
     [SerializeField]
     private Wave[] waves;
     private Wave currentWave;
@@ -31,18 +33,19 @@ public class WaveManager : MonoBehaviour {
         if (currentWave != null) {
             Destroy(currentWave.gameObject);
         }
+        CurrentWaveNumber = 0;
     }
 
     private void NextWave() {
         if (currentWave != null && currentWave.gameObject != null) {
             Destroy(currentWave.gameObject);
         }
-        if (Manager.Instance.CurrentWaveNumber == waves.Length) {
+        if (CurrentWaveNumber == waves.Length) {
             Sound.Instance.PlaySoundClip(SoundEnum.UI_Pling);
             EventManager.Instance.AllWavesFinished();
             return;
         }
-        currentWave = Instantiate(waves[Manager.Instance.CurrentWaveNumber]);
+        currentWave = Instantiate(waves[CurrentWaveNumber]);
         StartCoroutine(WaveSpawner());
     }
 
@@ -53,7 +56,7 @@ public class WaveManager : MonoBehaviour {
 
     private void Spawn() {
         currentWave.StartWave();
-        Manager.Instance.CurrentWaveNumber++;
+        CurrentWaveNumber++;
         EventManager.Instance.WaveStart();
         Sound.Instance.PlaySoundClip(SoundEnum.UI_Pling);
         ActionText.Instance.SetActionText("Next Wave is coming! Be ready!", 2f);

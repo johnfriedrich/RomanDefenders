@@ -13,6 +13,8 @@ public class RenderView : MonoBehaviour {
     [SerializeField]
     private GameObject horsemanPrefabInternal;
     [SerializeField]
+    private GameObject settlerPrefabInternal;
+    [SerializeField]
     private GameObject catapultPrefabInternal;
     [SerializeField]
     private GameObject forgePrefabInternal;
@@ -41,6 +43,8 @@ public class RenderView : MonoBehaviour {
                 return bowmanPrefabInternal;
             case ParentObjectNameEnum.Horseman:
                 return horsemanPrefabInternal;
+            case ParentObjectNameEnum.Settler:
+                return settlerPrefabInternal;
             case ParentObjectNameEnum.Catapult:
                 return catapultPrefabInternal;
             case ParentObjectNameEnum.Forge:
@@ -78,6 +82,7 @@ public class RenderView : MonoBehaviour {
         swordsmanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
         bowmanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
         horsemanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
+        settlerPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
     }
 
 }

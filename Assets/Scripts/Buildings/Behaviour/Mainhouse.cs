@@ -1,15 +1,28 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class Mainhouse : BuildingBehaviour {
 
     [SerializeField]
     private GameObject spawnPoint;
+    [SerializeField]
+    private EntityQueue queue;
+    private List<GameObject> entitiesToTrain = new List<GameObject>();
     private float costFactor = 1;
+    private bool alreadytraining;
 
     public override void OnBuildingBuilt(ParentBuilding building) {
         base.OnBuildingBuilt(building);
         if (this.building.IsPlayer()) {
             SpawnDefaults();
+            EventManager.Instance.OnEntityTrainFinishedEvent += TryTrainUnit;
+        }
+    }
+
+    public bool Alreadytraining {
+        get {
+            return alreadytraining;
         }
     }
 
@@ -28,6 +41,61 @@ public class Mainhouse : BuildingBehaviour {
         } else {
             EventManager.Instance.WinGame();
         }
+    }
+
+    public bool Train(TrainUnit unit) {
+        bool canTrain = false;
+        Entity temp = (Entity)PrefabHolder.Instance.GetInfo(unit.entityType);
+        if (!Manager.Instance.HasEnoughMana(temp.BuildCost)) {
+            EventLog.Instance.AddAction(LogType.Error, "You need " + temp.BuildCost + " " + Manager.Instance.CurrencyName + " to train " + temp.FriendlyName, transform.position);
+            return canTrain;
+        } else if (!Manager.Instance.HasEnoughFood(temp.FoodValue)) {
+            EventLog.Instance.AddAction(LogType.Error, "You need " + temp.FoodValue + " " + Manager.Instance.FoodName + " to train " + temp.FriendlyName, transform.position);
+            return canTrain;
+        } else if (building.IsUpgrading) {
+            EventLog.Instance.AddAction(LogType.Error, "You can't train while the building is upgrading", transform.position);
+            return canTrain;
+        }
+        canTrain = true;
+        Entity entityToTrain = PoolHolder.Instance.GetObject(unit.entityType).GetComponent<Entity>();
+        entityToTrain.MarkedForTraining = true;
+        queue.Put(entityToTrain);
+        EventManager.Instance.EntityTrain(entityToTrain);
+        if (!Alreadytraining) {
+            entitiesToTrain.Add(entityToTrain.gameObject);
+            TryTrainUnit();
+            return canTrain;
+        }
+        entitiesToTrain.Add(entityToTrain.gameObject);
+        return canTrain;
+    }
+
+    private void TryTrainUnit(Entity trainedEntity, BuildingBehaviour trainedIn) {
+        if (trainedIn == this) {
+            TryTrainUnit();
+        }
+    }
+
+    private void TryTrainUnit() {
+        if (entitiesToTrain.Count > 0) {
+            StartCoroutine(TrainUnit());
+        }
+    }
+
+    private IEnumerator TrainUnit() {
+        alreadytraining = true;
+        Entity spawnedEntity = entitiesToTrain[0].GetComponent<Entity>();
+        yield return new WaitForSeconds(spawnedEntity.BuildTime * costFactor);
+        spawnedEntity.gameObject.transform.position = spawnPoint.transform.position;
+        spawnedEntity.SetOwner(OwnerEnum.Player);
+        spawnedEntity.gameObject.SetActive(true);
+        spawnedEntity.MoveTo(spawnPoint.transform.position, false);
+        spawnedEntity.MarkedForTraining = false;
+        EventLog.Instance.AddAction(LogType.EntityFinished, "Trained " + spawnedEntity.FriendlyName, transform.position);
+        entitiesToTrain.Remove(spawnedEntity.gameObject);
+        alreadytraining = false;
+        queue.Remove(spawnedEntity);
+        EventManager.Instance.EntityTrainFinished(spawnedEntity, this);
     }
 
     private bool SpawnHero(bool firstSpawn) {
@@ -80,6 +148,13 @@ public class Mainhouse : BuildingBehaviour {
         entity.gameObject.transform.position = spawnPoint.transform.position;
         entity.SetOwner(OwnerEnum.Player);
         entity.gameObject.SetActive(true);
+    }
+
+    private void OnDisable() {
+        EventManager.Instance.OnEntityTrainFinishedEvent -= TryTrainUnit;
+        StopAllCoroutines();
+        entitiesToTrain = new List<GameObject>();
+        alreadytraining = false;
     }
 
     private void OnEnable() {

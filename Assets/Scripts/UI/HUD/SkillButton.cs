@@ -35,10 +35,7 @@ public class SkillButton : MonoBehaviour {
             return;
         }
         Manager.Instance.SkillOnMouse = true;
-        targeter.gameObject.SetActive(true);
-        targeter.CurrentSkillButton = this;
-        targeter.CurrentSkill = skillObject.GetComponent<SkillBehaviour>();
-        targeter.enabled = true;
+        targeter.SetSkill(skillObject.GetComponent<SkillBehaviour>(), this);
     }
 
     public void ExecuteSkill(Transform target) {

@@ -1,5 +1,6 @@
 ﻿using FoW;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -30,6 +31,8 @@ public class ParentBuilding : ParentObject, IRepairable {
     private SoundHolder destroySoundHolder;
     [SerializeField]
     private SoundHolder upgradeCompleteSoundHolder;
+    [SerializeField]
+    private List<Settler> workingSettlers;
 
     private enum TextureState {
         Normal,
@@ -86,6 +89,19 @@ public class ParentBuilding : ParentObject, IRepairable {
         StartCoroutine(ShakeObject());
     }
 
+    public void AddSettler(Settler settler) {
+        if (workingSettlers == null) {
+            workingSettlers = new List<Settler>();
+        }
+        workingSettlers.Add(settler);
+        settler.GetEntity().MoveTo(GetHitpoint(settler.gameObject.transform.position), true);
+        settler.CurrentBuilding = this;
+    }
+
+    public void DispenseSettler(Settler settler) {
+        workingSettlers.Remove(settler);
+    }
+
     public override void TakeDamage(float damage) {
         float finalDamage = damage - Armor;
         if (finalDamage < 0) {
@@ -105,6 +121,7 @@ public class ParentBuilding : ParentObject, IRepairable {
             EventManager.Instance.BuildingDamage(this);
             infoBar.UpdateBar();
             Die();
+            DispenseAllSettlers();
             Destroy(true);
         } else {
             currentHealthPoints -= finalDamage;
@@ -121,6 +138,7 @@ public class ParentBuilding : ParentObject, IRepairable {
             EventLog.Instance.AddAction(LogType.Error, Messages.CantDestroyBuildingWhileUpgrading, transform.position);
             return;
         }
+        workingSettlers.Clear();
         EventManager.Instance.BuildingRemoved(this, enemy);
         PoolHolder.Instance.GetObject(ParentObjectNameEnum.DeathObject).GetComponent<DeathObject>().Activate(destroySoundHolder, transform.position);
         navMeshObstacle.enabled = false;
@@ -135,7 +153,6 @@ public class ParentBuilding : ParentObject, IRepairable {
 
     public override bool LevelUp() {
         bool canBeUpgraded = false;
-        //canBeUpgraded = behaviour.LevelUp();
         if (currentLevel >= maxLevel) {
             EventLog.Instance.AddAction(LogType.Error, objectName.ToString() + " is already max level: " + currentLevel + "/" + maxLevel, transform.position);
             return canBeUpgraded;
@@ -162,6 +179,29 @@ public class ParentBuilding : ParentObject, IRepairable {
         SpawnDustParticles(upgradeTime);
         StartCoroutine(DoUpgrade(upgradeTime));
         return canBeUpgraded;
+    }
+
+    protected void OnMouseDown() {
+        if (Commands.Instance.SelectedObjects.Count > 0 && Commands.Instance.SelectedObjects[0] is Entity) {
+            Entity temp = (Entity)Commands.Instance.SelectedObjects[0];
+            if (temp.EntityBehaviourClass is Settler) {
+                AddSettler((Settler)temp.EntityBehaviourClass);
+                Debug.Log("Added Settler");
+            }
+        }
+    }
+
+    protected void OnMouseEnter() {
+        if (Commands.Instance.SelectedObjects.Count > 0 && Commands.Instance.SelectedObjects[0] is Entity) {
+            Entity temp = (Entity)Commands.Instance.SelectedObjects[0];
+            if (temp.EntityBehaviourClass is Settler) {
+                Cursor.SetCursor(Manager.Instance.CursorTexture, Vector2.zero, CursorMode.Auto);
+            }
+        }
+    }
+
+    private void OnMouseExit() {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     protected override void OnEnable() {
@@ -222,7 +262,14 @@ public class ParentBuilding : ParentObject, IRepairable {
         Sound.Instance.PlaySoundClipWithSource(upgradeCompleteSoundHolder, audioSource, 0);
         behaviour.LevelUp();
         base.LevelUp();
+        DispenseAllSettlers();
         EventLog.Instance.AddAction(LogType.Upgraded, objectName.ToString() + " leveled from " + (currentLevel - 1) + " to " + currentLevel, transform.position);
+    }
+
+    private void DispenseAllSettlers() {
+        for (int i = 0; i < workingSettlers.Count; i++) {
+            DispenseSettler(workingSettlers[i]);
+        }
     }
 
     private void Die() {
