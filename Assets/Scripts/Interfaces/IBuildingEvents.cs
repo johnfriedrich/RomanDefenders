@@ -1,6 +1,8 @@
 ﻿
-public interface IBuildingEvents {
+namespace Interfaces {
+    public interface IBuildingEvents {
 
-    void OnBuildingFinished(ParentBuilding building);
+        void OnBuildingFinished(ParentBuilding building);
 
+    }
 }

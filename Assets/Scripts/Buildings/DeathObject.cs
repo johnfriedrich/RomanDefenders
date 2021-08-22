@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Sound;
 using UnityEngine;
 
 public class DeathObject : MonoBehaviour {
@@ -23,7 +24,7 @@ public class DeathObject : MonoBehaviour {
     }
 
     private void PlayDeathSound() {
-        Sound.Instance.PlaySoundClipWithSource(destroySoundHolder, audioSource, 0);
+        Sound.Sound.Instance.PlaySoundClipWithSource(destroySoundHolder, audioSource, 0);
     }
 
     private IEnumerator DelayDisable() {

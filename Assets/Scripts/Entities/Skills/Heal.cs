@@ -1,19 +1,21 @@
 ﻿using UnityEngine;
 
-public class Heal : SkillBehaviour {
+namespace Entities.Skills {
+    public class Heal : SkillBehaviour {
 
-    [SerializeField]
-    private int healAmount;
+        [SerializeField]
+        private int healAmount;
 
-    protected override void Impact() {
-        base.Impact();
-        Collider[] colliderArray = Physics.OverlapSphere(transform.position, radius);
-        for (int i = 0; i < colliderArray.Length; i++) {
-            Entity tempEntity = colliderArray[i].GetComponent<Entity>();
-            if (tempEntity != null && tempEntity.IsPlayer() && tempEntity.IsAlive()) {
-                tempEntity.RepairSelf(healAmount);
+        protected override void Impact() {
+            base.Impact();
+            var colliderArray = Physics.OverlapSphere(transform.position, radius);
+            foreach (var t in colliderArray) {
+                var tempEntity = t.GetComponent<Entity>();
+                if (tempEntity != null && tempEntity.IsPlayer() && tempEntity.IsAlive()) {
+                    tempEntity.RepairSelf(healAmount);
+                }
             }
         }
-    }
 
+    }
 }

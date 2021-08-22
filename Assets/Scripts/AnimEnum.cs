@@ -1,8 +1,7 @@
 ﻿
 public static class AnimEnum {
-
-    public static readonly string Idle = "idle";
-    public static readonly string Attack = "attack";
-    public static readonly string Move = "move";
-
+    public const string Idle = "idle";
+    public const string Attack = "attack";
+    public const string Move = "move";
+    public const string Die = "die";
 }

@@ -1,8 +1,19 @@
 ﻿using FoW;
 using System.Collections;
 using System.Collections.Generic;
+using Buildings.Behaviour;
+using Entities;
+using Entities.Behaviour;
+using Interfaces;
+using Manager;
+using ObjectManagement;
+using Parent;
+using Sound;
+using Translation;
+using UI.HUD;
 using UnityEngine;
 using UnityEngine.AI;
+using LogType = UI.HUD.LogType;
 
 public class ParentBuilding : ParentObject, IRepairable {
 
@@ -156,8 +167,8 @@ public class ParentBuilding : ParentObject, IRepairable {
         if (currentLevel >= maxLevel) {
             EventLog.Instance.AddAction(LogType.Error, objectName.ToString() + " is already max level: " + currentLevel + "/" + maxLevel, transform.position);
             return canBeUpgraded;
-        } else if (!Manager.Instance.HasEnoughMana(upgradeCost)) {
-            EventLog.Instance.AddAction(LogType.Error, "You need " + upgradeCost + " " + Manager.Instance.CurrencyName + " to upgrade " + objectName, transform.position);
+        } else if (!Manager.Manager.Instance.HasEnoughMana(upgradeCost)) {
+            EventLog.Instance.AddAction(LogType.Error, "You need " + upgradeCost + " " + Manager.Manager.Instance.CurrencyName + " to upgrade " + objectName, transform.position);
             return canBeUpgraded;
         } else if (isUpgrading) {
             EventLog.Instance.AddAction(LogType.Error, Messages.AlreadyUpgradingBuilding, transform.position);
@@ -195,7 +206,7 @@ public class ParentBuilding : ParentObject, IRepairable {
         if (Commands.Instance.SelectedObjects.Count > 0 && Commands.Instance.SelectedObjects[0] is Entity) {
             Entity temp = (Entity)Commands.Instance.SelectedObjects[0];
             if (temp.EntityBehaviourClass is Settler) {
-                Cursor.SetCursor(Manager.Instance.CursorTexture, Vector2.zero, CursorMode.Auto);
+                Cursor.SetCursor(Manager.Manager.Instance.CursorTexture, Vector2.zero, CursorMode.Auto);
             }
         }
     }
@@ -259,7 +270,7 @@ public class ParentBuilding : ParentObject, IRepairable {
         yield return new WaitForSeconds(time);
         isUpgrading = false;
         currentLevel++;
-        Sound.Instance.PlaySoundClipWithSource(upgradeCompleteSoundHolder, audioSource, 0);
+        Sound.Sound.Instance.PlaySoundClipWithSource(upgradeCompleteSoundHolder, audioSource, 0);
         behaviour.LevelUp();
         base.LevelUp();
         DispenseAllSettlers();

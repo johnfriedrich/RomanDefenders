@@ -1,40 +1,39 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Manager;
+using Parent;
 using UnityEngine;
 
-public class Selection : MonoBehaviour {
+namespace Selection {
+    public class Selection : MonoBehaviour {
 
-    private static Selection instance;
-    private List<ParentObject> selectedObjects = new List<ParentObject>();
+        private static Selection _instance;
+        private List<ParentObject> selectedObjects = new List<ParentObject>();
 
-    public static Selection Instance { get => instance; }
+        public static Selection Instance => _instance;
 
-    public List<T> Get<T>() where T : ParentObject {
-        List<T> temp = new List<T>();
-        for (int i = 0; i < selectedObjects.Count; i++) {
-            if (selectedObjects[i] is T) {
-                temp.Add((T)selectedObjects[i]);
-            }
+        public List<T> Get<T>() where T : ParentObject {
+            return selectedObjects.OfType<T>().ToList();
         }
-        return temp;
+
+        public void Set(List<ParentObject> parentObjects) {
+
+        }
+
+        private void Awake() {
+            _instance = this;
+            EventManager.Instance.OnParentObjectSelectedEvent += SetSelectedObjects;
+            EventManager.Instance.OnDeselectEvent += Clear;
+        }
+
+        private void SetSelectedObjects(List<ParentObject> parentObjects) {
+            Clear();
+            selectedObjects = parentObjects;
+        }
+
+        private void Clear() {
+            selectedObjects.Clear();
+        }
+
     }
-
-    public void Set(List<ParentObject> parentObjects) {
-
-    }
-
-    private void Awake() {
-        instance = this;
-        EventManager.Instance.OnParentObjectSelectedEvent += SetSelectedObjects;
-        EventManager.Instance.OnDeselectEvent += Clear;
-    }
-
-    private void SetSelectedObjects(List<ParentObject> parentObjects) {
-        Clear();
-        selectedObjects = parentObjects;
-    }
-
-    private void Clear() {
-        selectedObjects.Clear();
-    }
-
 }

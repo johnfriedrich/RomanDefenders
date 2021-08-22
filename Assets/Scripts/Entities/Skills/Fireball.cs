@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
 
-public class Fireball : SkillBehaviour {
+namespace Entities.Skills {
+    public class Fireball : SkillBehaviour {
 
-    protected override void Impact() {
-        base.Impact();
-        Collider[] colliderArray = Physics.OverlapSphere(transform.position, radius);
-        for (int i = 0; i < colliderArray.Length; i++) {
-            Entity tempEntity = colliderArray[i].GetComponent<Entity>();
-            if (tempEntity != null && !tempEntity.IsPlayer() && tempEntity.IsAlive()) {
-                tempEntity.TakeDamage(damage);
+        protected override void Impact() {
+            base.Impact();
+            var colliderArray = Physics.OverlapSphere(transform.position, radius);
+            foreach (var t in colliderArray) {
+                var tempEntity = t.GetComponent<Entity>();
+                if (tempEntity != null && !tempEntity.IsPlayer() && tempEntity.IsAlive()) {
+                    tempEntity.TakeDamage(damage);
+                }
             }
         }
-    }
 
+    }
 }

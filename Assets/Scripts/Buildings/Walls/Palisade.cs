@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using Buildings.Behaviour;
 
-public class Palisade : BuildingBehaviour {
-
-    
-
+namespace Buildings.Walls {
+    public class Palisade : BuildingBehaviour {
+    }
 }

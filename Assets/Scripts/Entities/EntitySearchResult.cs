@@ -1,7 +1,9 @@
 ﻿
-public enum EntitySearchResult {
+namespace Entities {
+	public enum EntitySearchResult {
 
-	Success,
-    Failed
+		Success,
+		Failed
 
+	}
 }

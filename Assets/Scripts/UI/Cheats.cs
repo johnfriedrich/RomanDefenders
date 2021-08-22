@@ -1,29 +1,32 @@
-﻿using FoW;
+﻿using Entities;
+using FoW;
+using ObjectManagement;
+using Parent;
 
 public class Cheats : Menu {
 
 	public void GetMeAnArmy() {
         for (int i = 0; i < 15; i++) {
             Entity entityToTrain = PoolHolder.Instance.GetObject(ParentObjectNameEnum.Swordsman).GetComponent<Entity>();
-            entityToTrain.gameObject.transform.position = Manager.Instance.EnemyTarget.transform.position;
+            entityToTrain.gameObject.transform.position = Manager.Manager.Instance.EnemyTarget.transform.position;
             entityToTrain.SetOwner(OwnerEnum.Player);
             entityToTrain.gameObject.SetActive(true);
         }
         for (int i = 0; i < 3; i++) {
             Entity entityToTrain = PoolHolder.Instance.GetObject(ParentObjectNameEnum.Catapult).GetComponent<Entity>();
-            entityToTrain.gameObject.transform.position = Manager.Instance.EnemyTarget.transform.position;
+            entityToTrain.gameObject.transform.position = Manager.Manager.Instance.EnemyTarget.transform.position;
             entityToTrain.SetOwner(OwnerEnum.Player);
             entityToTrain.gameObject.SetActive(true);
         }
         for (int i = 0; i < 15; i++) {
             Entity entityToTrain = PoolHolder.Instance.GetObject(ParentObjectNameEnum.Bowman).GetComponent<Entity>();
-            entityToTrain.gameObject.transform.position = Manager.Instance.EnemyTarget.transform.position;
+            entityToTrain.gameObject.transform.position = Manager.Manager.Instance.EnemyTarget.transform.position;
             entityToTrain.SetOwner(OwnerEnum.Player);
             entityToTrain.gameObject.SetActive(true);
         }
         for (int i = 0; i < 15; i++) {
             Entity entityToTrain = PoolHolder.Instance.GetObject(ParentObjectNameEnum.Horseman).GetComponent<Entity>();
-            entityToTrain.gameObject.transform.position = Manager.Instance.EnemyTarget.transform.position;
+            entityToTrain.gameObject.transform.position = Manager.Manager.Instance.EnemyTarget.transform.position;
             entityToTrain.SetOwner(OwnerEnum.Player);
             entityToTrain.gameObject.SetActive(true);
         }

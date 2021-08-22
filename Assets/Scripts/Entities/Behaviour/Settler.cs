@@ -1,24 +1,23 @@
-﻿
-using UnityEngine;
+﻿namespace Entities.Behaviour {
+    public class Settler : EntityBehaviour {
 
-public class Settler : EntityBehaviour {
+        private ParentBuilding currentBuilding;
 
-    private ParentBuilding currentBuilding;
+        public ParentBuilding CurrentBuilding { set => currentBuilding = value; }
 
-    public ParentBuilding CurrentBuilding { set => currentBuilding = value; }
-
-    public override void StartMove() {
-        if (currentBuilding != null) {
-            currentBuilding.DispenseSettler(this);
+        public override void StartMove() {
+            if (currentBuilding != null) {
+                currentBuilding.DispenseSettler(this);
+            }
+            base.StartMove();
         }
-        base.StartMove();
-    }
 
-    public override void EndMove() {
-        base.EndMove();
-        if (currentBuilding != null) {
-            //anim hammer hit
+        public override void EndMove() {
+            base.EndMove();
+            if (currentBuilding != null) {
+                //anim hammer hit
+            }
         }
-    }
 
+    }
 }

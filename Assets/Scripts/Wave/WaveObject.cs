@@ -1,9 +1,12 @@
 ﻿using System;
+using Parent;
 
-[Serializable]
-public class WaveObject {
+namespace Wave {
+    [Serializable]
+    public class WaveObject {
 
-    public ParentObjectNameEnum EntityName;
-    public int EntityLevel;
+        public ParentObjectNameEnum EntityName;
+        public int EntityLevel;
 
+    }
 }

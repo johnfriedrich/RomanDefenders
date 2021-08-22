@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using Entities;
+using Manager;
+using Parent;
+using UI.CharacterEditor;
+using UnityEngine;
 
 public class RenderView : MonoBehaviour {
 
@@ -79,10 +83,10 @@ public class RenderView : MonoBehaviour {
 
     private void LoadColors() {
         characterPrefabinternal.GetComponent<Character>().Load(CharacterEditor.Instance.CharacterSaveData);
-        swordsmanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
-        bowmanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
-        horsemanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
-        settlerPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Instance.TeamColour;
+        swordsmanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Manager.Instance.TeamColour;
+        bowmanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Manager.Instance.TeamColour;
+        horsemanPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Manager.Instance.TeamColour;
+        settlerPrefabInternal.GetComponent<Entity>().MeshRenderer.materials[2].color = Manager.Manager.Instance.TeamColour;
     }
 
 }

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Manager;
+using Parent;
 using UnityEngine;
 
 public class FlyCamera : MonoBehaviour {
@@ -91,7 +93,7 @@ public class FlyCamera : MonoBehaviour {
         transform.position = pos;
 
         if (Input.GetKeyDown(KeyCode.Space)) {
-            JumpToTarget(Manager.Instance.EnemyTarget.transform.position);
+            JumpToTarget(Manager.Manager.Instance.EnemyTarget.transform.position);
         }
 
         if (Input.GetKeyDown(KeyCode.F) && selection != null) {

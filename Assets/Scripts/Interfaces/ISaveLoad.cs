@@ -1,8 +1,10 @@
 ﻿
-public interface ISaveLoad {
+namespace Interfaces {
+    public interface ISaveLoad {
 
-    EntitySaveData Save();
+        EntitySaveData Save();
 
-    void Load(EntitySaveData loadedData);
+        void Load(EntitySaveData loadedData);
 
+    }
 }

@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using Parent;
+using UnityEngine;
 
-public class TrainUnit : MonoBehaviour {
+namespace Entities {
+    public class TrainUnit : MonoBehaviour {
 
-    public ParentObjectNameEnum entityType;
+        public ParentObjectNameEnum entityType;
 
+    }
 }

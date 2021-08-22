@@ -1,7 +1,6 @@
-﻿
-public enum OwnerEnum {
-
-    Player,
-    Enemy
-
+﻿namespace Parent {
+    public enum OwnerEnum {
+        Player,
+        Enemy
+    }
 }

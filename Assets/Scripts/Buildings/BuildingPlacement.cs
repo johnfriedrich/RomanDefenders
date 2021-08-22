@@ -1,5 +1,9 @@
-﻿using FoW;
+﻿using Buildings;
+using FoW;
+using UI.HUD;
 using UnityEngine;
+using Utils;
+using LogType = UI.HUD.LogType;
 
 public class BuildingPlacement : MonoBehaviour {
 
@@ -20,13 +24,13 @@ public class BuildingPlacement : MonoBehaviour {
     }
 
     private void Update() {
-        if (Manager.Instance.BuildingPrefabOnMouse == null || isPlaced) {
+        if (Manager.Manager.Instance.BuildingPrefabOnMouse == null || isPlaced) {
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Mouse1) || !Manager.Instance.HasEnoughMana(Manager.Instance.BuildingPrefabOnMouse.GetComponent<ParentBuilding>().BuildCost)) {
-            Manager.Instance.BuildingPrefabOnMouse.SetActive(false);
-            Manager.Instance.BuildingPrefabOnMouse = null;
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Mouse1) || !Manager.Manager.Instance.HasEnoughMana(Manager.Manager.Instance.BuildingPrefabOnMouse.GetComponent<ParentBuilding>().BuildCost)) {
+            Manager.Manager.Instance.BuildingPrefabOnMouse.SetActive(false);
+            Manager.Manager.Instance.BuildingPrefabOnMouse = null;
             Destroy(this);
             return;
         }
@@ -34,7 +38,7 @@ public class BuildingPlacement : MonoBehaviour {
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (terrainCollider.Raycast(ray, out hit, 145f)) {
-            Manager.Instance.BuildingPrefabOnMouse.transform.position = hit.point;
+            Manager.Manager.Instance.BuildingPrefabOnMouse.transform.position = hit.point;
         }
         if (Input.GetKey(KeyCode.LeftShift)) {
             if (Input.GetAxis("Mouse ScrollWheel") > 0) {
@@ -79,7 +83,7 @@ public class BuildingPlacement : MonoBehaviour {
 
     private void Place() {
         isPlaced = true;
-        Manager.Instance.BuildingPrefabOnMouse = null;
+        Manager.Manager.Instance.BuildingPrefabOnMouse = null;
         gameObject.GetComponent<TerrainLeveler>().enabled = true;
         gameObject.GetComponent<Constructing>().enabled = true;
         gameObject.GetComponent<FogOfWarUnit>().enabled = true;

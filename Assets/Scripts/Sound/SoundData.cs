@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 
-[System.Serializable]
-public class SoundData {
+namespace Sound {
+    [System.Serializable]
+    public class SoundData {
 
-    public AudioClip clip;
-    public SoundEnum name;
+        public AudioClip clip;
+        public SoundEnum name;
 
+    }
 }
 

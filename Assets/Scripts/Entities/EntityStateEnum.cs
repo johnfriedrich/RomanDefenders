@@ -1,7 +1,9 @@
 ﻿
-public enum EntityStateEnum {
+namespace Entities {
+    public enum EntityStateEnum {
 
-    Alive,
-    Dead
+        Alive,
+        Dead
 
+    }
 }

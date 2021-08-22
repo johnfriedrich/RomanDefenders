@@ -1,4 +1,6 @@
 ﻿
-public class Help : Menu {
+namespace UI.HUD {
+	public class Help : Menu {
 	
+	}
 }

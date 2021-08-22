@@ -1,7 +1,9 @@
 ﻿using System;
 
-[Serializable]
-public enum EntityBehaviourEnum {
-    Passive,
-    Agressive
+namespace Entities {
+    [Serializable]
+    public enum EntityBehaviourEnum {
+        Passive,
+        Agressive
+    }
 }

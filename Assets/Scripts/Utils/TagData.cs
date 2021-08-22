@@ -1,8 +1,8 @@
 ﻿
-public class TagData {
-
-    public static readonly string Entity = "Entity";
-    public static readonly string Building = "Building";
-    public static readonly string Tree = "Tree";
-
+namespace Utils {
+    public class TagData {
+        public const string Entity = "Entity";
+        public const string Building = "Building";
+        public const string Tree = "Tree";
+    }
 }
